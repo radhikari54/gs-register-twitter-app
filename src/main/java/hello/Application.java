@@ -1,4 +1,4 @@
-package twclient;
+package hello;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.springframework.social.oauth2.OAuth2Operations;
 import org.springframework.social.oauth2.OAuth2Template;
 import org.springframework.web.client.RestTemplate;
 
-public class Main {
+public class Application {
 
 	public static void main(String[] args) {
 		String appId = promptForInput("Enter your Consumer ID:");

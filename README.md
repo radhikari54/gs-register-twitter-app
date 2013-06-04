@@ -1,4 +1,4 @@
-Getting Started Registering an Application with Twitter
+Getting Started: Registering an Application with Twitter
 =======================================================
 This Getting Started guide will walk you through the steps of registering an application to integrate with Twitter.
 
@@ -48,28 +48,18 @@ One way you can use your newly registered application's Consumer ID and Consumer
 
 You can clone the utility project from GitHub:
 
-```sh
-$ git clone https://github.com/springframework-meta/gs-register-twitter-app.git
-```
+    git clone https://github.com/springframework-meta/gs-register-twitter-app.git
 
 To run the utility, simply run it from the command line like this:
 
-```sh
-$ gradlew run
-```
+    mvn package && java -jar target/gs-register-twitter-app-0.1.0.jar
 
 You'll be prompted by two dialogs. The first will ask for the application's Consumer ID and the second will ask for the application's Consumer Secret. You can copy-n-paste those from the Twitter Developer's site.
 
 After supplying the Consumer ID and Consumer Secret, the application will query Twitter's REST API, searching for Tweets that have "#springframework" in the text. If you've set your application up correctly, you should see the text of several matching Tweets.
 
-Next Steps
+Summary
 ----------
 Congratulations! You have now registered an application with Twitter.
 
-This is merely the first step in developing an application that is integrated into its users' social graph. For more information on what your Twitter-enabled application can do, we recommend that you have a look at the following Getting Started guides:
-
-* Obtaining user authorization from Twitter
-* Authenticating a user with Twitter
-* Retrieving user data from Twitter
-* Registering an application with Facebook
-
+This is merely the first step in developing an application that is integrated into its users' social graph.
