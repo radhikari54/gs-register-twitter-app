@@ -31,7 +31,7 @@ public class Application {
 		// This is not (yet) supported by Spring Social, so we must construct the request ourselves.
 		RestTemplate rest = new RestTemplate();
 		HttpHeaders headers = new HttpHeaders();
-		headers.add("Authorization", "OAuth " + appToken);
+		headers.add("Authorization", "Bearer " + appToken);
 		HttpEntity<String> requestEntity = new HttpEntity<String>("", headers);
 		Map<String, ?> result = rest.exchange("https://api.twitter.com/1.1/search/tweets.json?q={query}", HttpMethod.GET, requestEntity, Map.class, query).getBody();
 		List<Map<String, ?>> statuses = (List<Map<String, ?>>) result.get("statuses");
