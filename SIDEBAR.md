@@ -1,6 +1,6 @@
 ### Related Resources
 
-Registring your Twitter application is just the first step in creating a social application. You may want to continue your exploration of Spring and social API integration with the following
+Registering your Twitter application is just the first step in creating a social application. You may want to continue your exploration of Spring and social API integration with the following
 
 ### Getting Started Guides
 
