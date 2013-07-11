@@ -1,3 +1,4 @@
+<#assign project_id="gs-register-twitter-app">
 
 Getting Started: Registering an Application with Twitter
 =======================================================
@@ -49,11 +50,11 @@ One way you can use your newly registered application's Consumer ID and Consumer
 
 You can clone the utility project from GitHub:
 
-    git clone https://github.com/springframework-meta/gs-register-twitter-app.git
+    git clone https://github.com/springframework-meta/${project_id}.git
 
 To run the utility, simply run it from the command line like this:
 
-    mvn package && java -jar target/gs-register-twitter-app-0.1.0.jar
+    mvn package && java -jar target/${project_id}-0.1.0.jar
 
 You'll be prompted by two dialogs. The first will ask for the application's Consumer ID and the second will ask for the application's Consumer Secret. You can copy-n-paste those from the Twitter Developer's site.
 
