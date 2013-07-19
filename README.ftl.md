@@ -40,11 +40,11 @@ Click "Create your Twitter application" to complete the form and go to the appli
 
 Here you configure details about your application, according to what kind of application you plan to build and what you want it to do. 
 
-The main thing to note from the application settings page is the __Consumer key__ and __Consumer Secret__. These values are your application's credentials for Twitter.You need them to do almost anything with Twitter, including going through the OAuth authorization flow and working with Twitter's REST API.
+The main fields to note are __Consumer key__ and __Consumer secret__. These values are your application's credentials for Twitter.You need them to do almost anything with Twitter, including going through the OAuth authorization flow and working with Twitter's REST API.
 
 Verify the registration
 --------------------------
-One way you can use your newly registered application's Consumer ID and Consumer Secret is to use them in an application that retrieves information about itself. The sample utility application in GitHub fetches information about a registered application and displays it on the console.
+One way you can use your newly registered application's consumer key and consumer secret is to use them in an application that retrieves information about itself. The sample utility application in GitHub fetches information about a registered application and displays it on the console.
 
 You can clone the utility project from GitHub:
 
