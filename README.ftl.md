@@ -14,7 +14,7 @@ From http://dev.twitter.com, find your avatar in the upper-right corner and move
 
 Click the ![](images/tw-new-app-button.png) button near the top. A new page with the _Create an application_ form requires basic information about your application.
 
-![](images/tw-app-details.png)
+![](images/tw-create-app.png)
 
 In the _Name_ field, name your application in 32 characters or fewer. This name is presented to users when they are prompted to authorize your application to access their Twitter information. In the Description_ field, describe your application in 10 to 200 characters. Again, this is presented to users on authorization screens.
 
@@ -44,7 +44,7 @@ The main fields to note are __Consumer key__ and __Consumer secret__. These valu
 
 Verify the registration
 --------------------------
-One way you can use your newly registered application's consumer key and consumer secret is to use them in an application that retrieves information about itself. The sample utility application in GitHub fetches information about a registered application and displays it on the console.
+Now you can use your consumer key and secret to access Twitter's API. The [sample utility application in GitHub][sampleapp] is an example of an application that can use the consumer key and secret to search Twitter.
 
 You can clone the utility project from GitHub:
 
@@ -61,4 +61,6 @@ The application then queries Twitter's REST API, searching for Tweets that have 
 Summary
 ----------
 Congratulations! You have now registered an application with Twitter.
+
+[sampleapp]: https://github.com/springframework-meta/gs-register-twitter-app
 
