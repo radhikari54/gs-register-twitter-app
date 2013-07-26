@@ -1,6 +1,4 @@
 
-Getting Started: Registering an Application with Twitter
-=======================================================
 This guide walks you through the steps of registering an application that you can integrate with Twitter.  Registering the application is the first step in developing an application that is integrated into its users' social graph.
 
 You perform the steps in this guide in your web browser on Twitter.com. Although you won't be writing any code, you'll use a simple utility project to verify that you performed the steps correctly. Instructions for getting and running the utility are at the end of this guide.
