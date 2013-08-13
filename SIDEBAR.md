@@ -25,5 +25,5 @@ Registering your Twitter application is the first step in creating a social appl
 * [REST][u-rest]
 * [JSON][u-json]
 
-<@u_rest/>
-<@u_json/>
+[u-rest]: /understanding/REST
+[u-json]: /understanding/JSON
