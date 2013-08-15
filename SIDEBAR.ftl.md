@@ -2,7 +2,7 @@
 
 Registering your Twitter application is the first step in creating a social application. You can continue to explore Spring and social API integration with the following resources.
 
-### Getting Started Guides
+### Getting Started guides
 
 * [Accessing Facebook Data][gs-accessing-facebook]
 * [Accessing Twitter Data][gs-accessing-twitter]
