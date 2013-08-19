@@ -1,4 +1,4 @@
-## Related Resources
+## Related resources
 
 Registering your Twitter application is the first step in creating a social application. You can continue to explore Spring and social API integration with the following resources.
 
@@ -20,7 +20,7 @@ Registering your Twitter application is the first step in creating a social appl
 
 [tut-rest]: /guides/tutorials/rest
 
-### Concepts and Technologies
+### Concepts and technologies
 
 * [REST][u-rest]
 * [JSON][u-json]
