@@ -46,11 +46,11 @@ Now you can use your consumer key and secret to access Twitter's API. The [sampl
 
 You can clone the utility project from GitHub:
 
-    git clone https://github.com/springframework-meta/${project_id}.git
+```sh
+$ git clone https://github.com/springframework-meta/${project_id}.git
+```
 
-To run the utility, simply run it from the command line like this:
-
-    mvn package && java -jar target/${project_id}-0.1.0.jar
+<@run_the_utility/>
 
 You'll be prompted by two dialogs. The first will ask for the application's Consumer ID and the second will ask for the application's Consumer Secret. Copy and paste the values from the Twitter Developer's site.
 

@@ -45,11 +45,21 @@ Now you can use your consumer key and secret to access Twitter's API. The [sampl
 
 You can clone the utility project from GitHub:
 
-    git clone https://github.com/springframework-meta/gs-register-twitter-app.git
+```sh
+$ git clone https://github.com/springframework-meta/gs-register-twitter-app.git
+```
 
-To run the utility, simply run it from the command line like this:
+To run the utility, simply run it from the command line using [Gradle][gs-gradle] like this:
 
-    mvn package && java -jar target/gs-register-twitter-app-0.1.0.jar
+```sh
+$ ./gradlew clean build && java -jar build/libs/gs-register-twitter-app-0.1.0.jar
+```
+Or if you are using [Maven][gs-maven], run it like this:
+```sh
+$ mvn package && java -jar target/gs-register-twitter-app-0.1.0.jar
+```
+[gs-gradle]: /guides/gs/gradle
+[gs-maven]: /guides/gs/maven
 
 You'll be prompted by two dialogs. The first will ask for the application's Consumer ID and the second will ask for the application's Consumer Secret. Copy and paste the values from the Twitter Developer's site.
 
