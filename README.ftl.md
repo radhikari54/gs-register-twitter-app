@@ -47,7 +47,7 @@ Now you can use your consumer key and secret to access Twitter's API. The [sampl
 You can clone the utility project from GitHub:
 
 ```sh
-$ git clone https://github.com/springframework-meta/${project_id}.git
+$ git clone https://github.com/spring-guides/${project_id}.git
 ```
 
 <@run_the_utility/>
@@ -60,5 +60,5 @@ Summary
 ----------
 Congratulations! You have now registered an application with Twitter.
 
-[sampleapp]: https://github.com/springframework-meta/gs-register-twitter-app
+[sampleapp]: https://github.com/spring-guides/gs-register-twitter-app
 
