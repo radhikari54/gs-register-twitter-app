@@ -1,3 +1,7 @@
+---
+tags: []
+projects: [spring-social-twitter]
+---
 :toc:
 :icons: font
 :source-highlighter: prettify
