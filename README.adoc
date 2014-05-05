@@ -55,7 +55,7 @@ You can clone the utility project from GitHub:
 git clone https://github.com/spring-guides/${project_id}.git
 ----
 
-include::https://raw.github.com/spring-guides/getting-started-macros/master/run_the_utility.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/run_the_utility.adoc[]
 
 You'll be prompted by two dialogs. The first will ask for the application's Consumer ID and the second will ask for the application's Consumer Secret. Copy and paste the values from the Twitter Developer's site.
 
