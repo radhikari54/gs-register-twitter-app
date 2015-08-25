@@ -65,3 +65,6 @@ The application then queries Twitter's REST API, searching for Tweets that have 
 Congratulations! You have now registered an application with Twitter.
 
 
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+
