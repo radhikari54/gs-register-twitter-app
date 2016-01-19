@@ -47,12 +47,13 @@ Here you configure details about your application, according to what kind of app
 The main fields to note are __Consumer key__ and __Consumer secret__. These values are your application's credentials for Twitter.You need them to do almost anything with Twitter, including going through the OAuth authorization flow and working with Twitter's REST API.
 
 == Verify the registration
-Now you can use your consumer key and secret to access Twitter's API. The [sample utility application in GitHub][sampleapp] is an example of an application that can use the consumer key and secret to search Twitter.
+Now you can use your consumer key and secret to access Twitter's API. The https://github.com/spring-guides/{project_id}[sample utility application in GitHub] is an example of an application that can use the consumer key and secret to search Twitter.
 
 You can clone the utility project from GitHub:
 
+[subs="attributes"]
 ----
-git clone https://github.com/spring-guides/${project_id}.git
+git clone https://github.com/spring-guides/{project_id}.git
 ----
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/run_the_utility.adoc[]
