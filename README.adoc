@@ -1,4 +1,4 @@
----
+1---
 tags: []
 projects: [spring-social-twitter]
 ---
@@ -14,7 +14,7 @@ You perform the steps in this guide in your web browser on Twitter.com. Although
 == Register a new application
 All Twitter users are potentially Twitter application developers. Simply visit http://dev.twitter.com and sign in with your Twitter credentials.
 
-From http://dev.twitter.com, find your avatar in the upper-right corner and move your mouse over it. You see a menu that includes (among other things) "My applications". Select "My applications" to see a page that will list all your Twitter applications, once you create them. You haven't created any applications yet, so the list is empty. 
+Go to https://apps.twitter.com/ to see a page that will list all your Twitter applications, once you create them. If you haven't created any applications yet, the list is empty. 
 
 Click the image:images/tw-new-app-button.png[] button near the top. A new page with the _Create an application_ form requires basic information about your application.
 
@@ -24,7 +24,7 @@ In the _Name_ field, name your application in 32 characters or fewer. This name 
 
 In the _Website_ field, give a URL that points the user back to your application, where they can download it or find out more information. As with _Name_ and _Description_, this field is presented on user-facing authorization screens.
 
-The _Callback URL_ field can specify the URL were Twitter should redirect after a successful authorization. It is best to leave this field blank and to explicitly specify the callback URL at authorization time.
+The _Callback URL_ field can specify the URL were Twitter should redirect after a successful authorization. You can leave this blank to complete the exercise in this guide, but in general you will want this to be a valid URL (even though Twitter allows you to change it at runtime).
 
 The developer _Rules Of The Road_ section outlines rules you must agree to follow if you build an application that uses Twitter's API. 
 
