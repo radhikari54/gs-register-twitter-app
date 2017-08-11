@@ -14,7 +14,7 @@ You perform the steps in this guide in your web browser on Twitter.com. Although
 == Register a new application
 All Twitter users are potentially Twitter application developers. Simply visit http://dev.twitter.com and sign in with your Twitter credentials.
 
-Go to https://apps.twitter.com/ to see a page that will list all your Twitter applications, once you create them. If you haven't created any applications yet, the list is empty. 
+Go to https://apps.twitter.com/ to see a page that will list all your Twitter applications, once you create them. If you haven't created any applications yet, the list is empty.
 
 Click the image:images/tw-new-app-button.png[] button near the top. A new page with the _Create an application_ form requires basic information about your application.
 
@@ -26,7 +26,7 @@ In the _Website_ field, give a URL that points the user back to your application
 
 The _Callback URL_ field can specify the URL were Twitter should redirect after a successful authorization. You can leave this blank to complete the exercise in this guide, but in general you will want this to be a valid URL (even though Twitter allows you to change it at runtime).
 
-The developer _Rules Of The Road_ section outlines rules you must agree to follow if you build an application that uses Twitter's API. 
+The developer _Rules Of The Road_ section outlines rules you must agree to follow if you build an application that uses Twitter's API.
 
 image::images/tw-rules-of-road.png[]
 
@@ -39,10 +39,10 @@ A Captcha challenge ensures that you're not setting up applications through an a
 image::images/tw-captcha.png[]
 
 Click "Create your Twitter application" to complete the form and go to the application settings page.
- 
+
 image::images/tw-app-details.png[]
 
-Here you configure details about your application, according to what kind of application you plan to build and what you want it to do. 
+Here you configure details about your application, according to what kind of application you plan to build and what you want it to do.
 
 The main fields to note are __Consumer key__ and __Consumer secret__. These values are your application's credentials for Twitter.You need them to do almost anything with Twitter, including going through the OAuth authorization flow and working with Twitter's REST API.
 
@@ -65,7 +65,11 @@ The application then queries Twitter's REST API, searching for Tweets that have 
 == Summary
 Congratulations! You have now registered an application with Twitter.
 
+== See Also
 
+The following guides may also be helpful:
+
+* https://spring.io/guides/gs/accessing-twitter/[Accessing Twitter Data]
+* https://spring.io/guides/gs/register-facebook-app/[Registering an Application with Facebook]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
-
